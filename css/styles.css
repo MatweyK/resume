@@ -1,0 +1,246 @@
+img {
+	width: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-nav-wrapper {
+	background-color: #ffffff;
+
+}
+
+.page-nav {
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	
+	
+}
+
+.nav-link {
+	color: #000000;
+
+}
+
+.home {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+
+}
+
+.developer-heading {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 400px 0 50px 0; 
+	font-family: 'Roboto-bold', sans-serif;
+	font-size: 70px;
+}
+
+.developer-info {
+	margin-bottom: 50px;
+}
+.lern-more-btn {
+	margin-bottom: 200px;
+
+}
+
+.home-wrapper {
+	background-color: #87509c;
+
+
+}
+
+.about-me-item {
+	position: relative;
+
+	padding-top: 200px;
+
+}
+
+.item-values:before {
+	content: "";
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 120px;
+	top: 20px;
+
+	background-image: url(../img/blue-star-icon.png);
+	background-size: cover;
+}
+
+.item-goals:before {
+	content: "";
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: 120px;
+	top: 20px;
+
+
+	background-image: url(../img/Goal@2x.png);
+	background-size: cover;
+}
+.item-hobbies:before {
+	content: "";
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: 120px;
+	top: 20px;
+
+	background-image: url(../img/12.png);
+	background-size: cover;
+}
+
+
+.about-me-wrapper {
+	background-color: #17c2a4;
+}
+
+.about-me {
+	padding:  100px;
+
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+}
+.about-me-heading {
+	text-align: center;
+	font-family: 'Roboto-bold', sans-serif;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+
+
+.skills-wrapper {
+	background-color: #e7f1f8;
+}
+.skills {
+	padding: 100px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.skills-info {
+	text-align: left;
+	margin: 50px;
+}
+
+.skills-info-item {
+	padding: 30px ;
+}
+.skills-heading{
+	font-size: 40px;
+	font-family: 'Roboto-bold', sans-serif;
+}
+
+.testimonals {
+	padding: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-wrapper {
+	background-color: #ffdd99;
+}
+.testimonals-heading {
+	font-family: 'Roboto-bold', sans-serif;
+	font-size: 40px;
+
+}
+
+.portfolio {
+	padding: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.portfolio-heading {
+	font-family: 'Roboto-bold', sans-serif;
+	font-size: 40px;
+}
+
+.portfolio-info {
+	margin: 50px;
+}
+
+.contacts-wrapper {
+	background-color: #3c5499;
+}
+
+.contacts {
+	font-family: 'Roboto', sans-serif;
+	padding: 70px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contacts-heading {
+	font-family: 'Roboto-bold', sans-serif;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+.input-name {
+	padding: 10px 50px;
+	margin: 10px;
+}
+.input-email {
+	padding: 10px 50px;
+	margin: 10px;
+
+}
+.input-message {
+	padding: 40px 50px;
+	margin: 10px;
+
+}
+.contacts-list
+{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 141px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.social-button {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43px;
+	height: 43px;
+	
+	color: #ffffff;
+	background-color: #3c5499;
+	list-style: none;
+}
+
+.social-button:hover,
+.social-button:focus {
+	background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+	fill: #3c5499;
+}
