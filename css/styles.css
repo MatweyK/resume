@@ -180,7 +180,11 @@ img {
 }
 
 .portfolio-info {
-	margin: 50px;
+	margin: 30px;
+}
+
+.portfolio-item {
+	padding:  20px;
 }
 
 .contacts-wrapper {
@@ -246,4 +250,18 @@ img {
 .social-button:hover path,
 .social-button:focus path {
 	fill: #3c5499;
+}
+
+.form-submit {
+	padding: 10px 80px;
+	background-color:  #fffdfd00;
+	border-radius: 10px;
+	margin: 20px;
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	.page-nav-wrapper {
+		display: none;
+	}
 }
