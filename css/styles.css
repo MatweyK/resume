@@ -133,9 +133,10 @@ img {
 	content: "";
 	width: 150px;
 	height: 150px;
+	margin: 0 auto;
 	position: absolute;
-	left: 120px;
-	top: 20px;
+	top: 0; left: 0; bottom: 0; right: 0;
+
 
 	background-image: url(../img/blue-star-icon.png);
 	background-size: cover;
@@ -145,9 +146,9 @@ img {
 	content: "";
 	width: 130px;
 	height: 130px;
+	margin: 0 auto;
 	position: absolute;
-	left: 120px;
-	top: 20px;
+	top: 0; left: 0; bottom: 0; right: 0;
 
 
 	background-image: url(../img/Goal@2x.png);
@@ -157,9 +158,9 @@ img {
 	content: "";
 	width: 130px;
 	height: 130px;
+	margin: 0 auto;
 	position: absolute;
-	left: 120px;
-	top: 20px;
+	top: 0; left: 0; bottom: 0; right: 0;
 
 	background-image: url(../img/12.png);
 	background-size: cover;
@@ -335,7 +336,7 @@ img {
 	content: "";
 	width: 75px;
 	height: 75px;
-	left: 180px;
+	
 	
 }
 
@@ -343,14 +344,14 @@ img {
 	
 	width: 75px;
 	height: 75px;
-	left: 180px;
+	
 	
 }
 .item-hobbies:before {
 	
 	width: 75px;
 	height: 75px;
-	left: 180px;
+	
 	
 }
 
