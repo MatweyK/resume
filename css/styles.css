@@ -17,7 +17,10 @@ img {
 
 .page-nav-wrapper {
 	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
 
+	z-index: 1000;
 }
 
 .page-nav {
@@ -43,7 +46,7 @@ img {
 .developer-heading {
 	text-align: center;
 	text-transform: uppercase;
-	margin: 400px 0 50px 0; 
+	margin: 200px 0 50px 0; 
 	font-family: 'Roboto-bold', sans-serif;
 	font-size: 70px;
 }
