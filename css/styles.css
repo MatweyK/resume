@@ -39,36 +39,93 @@ img {
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 
 }
 
 .developer-heading {
 	text-align: center;
 	text-transform: uppercase;
-	margin: 200px 0 50px 0; 
+	margin: 160px 0 50px 0; 
 	font-family: 'Roboto-bold', sans-serif;
-	font-size: 70px;
+	font-size: 55px;
 }
 
 .developer-info {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 .lern-more-btn {
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 
 }
 
 .home-wrapper {
 	background-color: #87509c;
+	background-image: url(../img/pexels-photo-767956.jpeg);
+	background-size: 100% 100%;
 
 
+}
+
+
+
+
+.expirience-wrapper {
+	background-color: #ffffff;
+}
+
+.expirience {
+	padding: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-wrapper {
+	background-color: #e2d3a9;
+}
+.expirience-heading-main {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.expirience-heading {
+	font-family: 'Roboto-bold', sans-serif;
+	font-size: 30px;
+
+}
+
+.skills-wrapper {
+	background-color: #82d2ef;
+}
+.skills {
+	padding: 60px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #000000;
+}
+
+.skills-info {
+	text-align: left;
+	margin: 30px;
+}
+
+.skills-info-item {
+	padding: 10px ;
+}
+.skills-heading-main{
+	font-size: 40px;
+	font-family: 'Roboto-bold', sans-serif;
+	color: #ffffff;
+}
+
+.skills-heading {
+	font-size: 30px;
 }
 
 .about-me-item {
 	position: relative;
 
-	padding-top: 200px;
+	padding-top: 180px;
 
 }
 
@@ -110,68 +167,27 @@ img {
 
 
 .about-me-wrapper {
-	background-color: #17c2a4;
+	background-color: #ffffff;
 }
 
 .about-me {
-	padding:  100px;
+	padding:  60px;
 
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
 	font-size: 20px;
 	text-align: center;
 }
-.about-me-heading {
-	text-align: center;
-	font-family: 'Roboto-bold', sans-serif;
-	color: #ffffff;
-	font-size: 40px;
-}
 
 
 
-.skills-wrapper {
-	background-color: #e7f1f8;
-}
-.skills {
-	padding: 100px;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-}
-
-.skills-info {
-	text-align: left;
-	margin: 50px;
-}
-
-.skills-info-item {
-	padding: 30px ;
-}
-.skills-heading{
-	font-size: 40px;
-	font-family: 'Roboto-bold', sans-serif;
-}
-
-.testimonals {
-	padding: 100px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.portfolio-wrapper {
-	background-color: #ffdd99;
-}
-.testimonals-heading {
-	font-family: 'Roboto-bold', sans-serif;
-	font-size: 40px;
-
-}
 
 .portfolio {
-	padding: 100px;
+	padding: 60px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	text-align: center;
+	color: #000000;
 }
 
 .portfolio-heading {
@@ -181,6 +197,7 @@ img {
 
 .portfolio-info {
 	margin: 30px;
+	
 }
 
 .portfolio-item {
@@ -188,12 +205,12 @@ img {
 }
 
 .contacts-wrapper {
-	background-color: #3c5499;
+	background-color: #485782;
 }
 
 .contacts {
 	font-family: 'Roboto', sans-serif;
-	padding: 70px;
+	padding: 60px;
 	color: #ffffff;
 	font-size: 20px;
 	text-align: center;
@@ -205,16 +222,16 @@ img {
 	margin-bottom: 60px;
 }
 .input-name {
-	padding: 10px 50px;
+	padding: 5px 50px;
 	margin: 10px;
 }
 .input-email {
-	padding: 10px 50px;
+	padding: 5px 50px;
 	margin: 10px;
 
 }
 .input-message {
-	padding: 40px 50px;
+	padding: 20px 50px;
 	margin: 10px;
 
 }
@@ -238,7 +255,7 @@ img {
 	height: 43px;
 	
 	color: #ffffff;
-	background-color: #3c5499;
+	background-color: #485782;
 	list-style: none;
 }
 
@@ -249,7 +266,7 @@ img {
 
 .social-button:hover path,
 .social-button:focus path {
-	fill: #3c5499;
+	fill: #485782;
 }
 
 .form-submit {
@@ -264,4 +281,135 @@ img {
 	.page-nav-wrapper {
 		display: none;
 	}
+	.home {
+
+	font-size: 30px;
+
 }
+
+.developer-heading {
+	margin: 50px 0 25px 0; 
+	font-size: 50px;
+}
+
+.developer-info {
+	margin-bottom: 25px;
+}
+.lern-more-btn {
+	margin-bottom: 50px;
+
+}
+
+
+
+.skills {
+	padding: 50px;
+	font-size: 15px;
+}
+
+.skills-info {
+	text-align: left;
+	margin: 25px;
+}
+
+.skills-info-item {
+	padding: 5px ;
+}
+.skills-heading-main{
+	font-size: 30px;
+	
+}
+
+.skills-heading {
+	font-size: 20px;
+}
+
+.about-me-item {
+	position: relative;
+
+	padding-top: 100px;
+
+}
+
+.item-values:before {
+	content: "";
+	width: 75px;
+	height: 75px;
+	left: 180px;
+	
+}
+
+.item-goals:before {
+	
+	width: 75px;
+	height: 75px;
+	left: 180px;
+	
+}
+.item-hobbies:before {
+	
+	width: 75px;
+	height: 75px;
+	left: 180px;
+	
+}
+
+.about-me {
+	padding:  50px;
+	font-size: 15px;
+}
+
+.about-me-heading {
+	font-size: 30px;
+}
+
+.expirience {
+	padding: 20px;
+	font-size: 15px;
+}
+
+
+.expirience-heading-main {
+	font-size: 30px;
+	
+	padding-bottom: 10px;
+}
+
+.expirience-heading {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.portfolio {
+	padding: 50px;
+	font-size: 15px;
+	
+}
+
+.portfolio-heading {
+	font-size: 30px;
+}
+
+.portfolio-info {
+	margin: 20px;
+	
+}
+
+.portfolio-item {
+	padding:  20px;
+}
+
+.contacts {
+	
+	padding: 40px;
+	font-size: 15px;
+	
+}
+
+.contacts-heading {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+}
+
