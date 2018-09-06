@@ -50,7 +50,7 @@
 }
 
 .developer-info {
-	margin-bottom: 40px;
+	margin: 120px;
 }
 .lern-more-btn {
 	margin-bottom: 100px;
@@ -59,9 +59,8 @@
 
 .home-wrapper {
 	background-color: #87509c;
-	background-image: url(../img/976a4da1-5266-4f37-b82e-202da64386a6.jpg);
-	background-size: cover;
-	background-position: center center;
+	background-image: url(../img/pexels-photo-767956.jpeg);
+	background-size: 100% 100%;
 
 
 }
@@ -297,7 +296,8 @@
 }
 
 .developer-info {
-	margin-bottom: 25px;
+	margin: 0;
+	margin-bottom: 25px ;
 }
 .lern-more-btn {
 	margin-bottom: 50px;
