@@ -7,7 +7,7 @@ $(document).ready(function() {
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
-			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+			alert("Thanks you for your message. I will contact you soon");
 			$("#form").trigger("reset");
 		});
 		return false;

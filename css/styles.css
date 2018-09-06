@@ -1,6 +1,4 @@
-img {
-	width: 100%;
-}
+
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
@@ -70,24 +68,26 @@ img {
 
 
 
-.expirience-wrapper {
+.experience-wrapper {
 	background-color: #ffffff;
 }
 
-.expirience {
+.experience {
 	padding: 50px;
 	font-family: 'Roboto', sans-serif;
 }
 
-.portfolio-wrapper {
-	background-color: #e2d3a9;
+.my-image {
+	width: 100%;
+	height: 100%
 }
-.expirience-heading-main {
+
+.experience-heading-main {
 	font-size: 40px;
 	text-align: center;
 	padding-bottom: 20px;
 }
-.expirience-heading {
+.experience-heading {
 	font-family: 'Roboto-bold', sans-serif;
 	font-size: 30px;
 
@@ -181,7 +181,9 @@ img {
 }
 
 
-
+.portfolio-wrapper {
+	background-color: #e2d3a9;
+}
 
 .portfolio {
 	padding: 60px;
