@@ -207,6 +207,10 @@
 	padding:  20px;
 }
 
+.portfolio-item img {
+	width: 100%;
+}
+
 .contacts-wrapper {
 	background-color: #485782;
 }
