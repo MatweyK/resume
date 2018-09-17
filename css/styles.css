@@ -234,6 +234,12 @@
 	width: 100%;
 }
 
+
+.portfolio-item:hover img {
+	opacity: 0.5;
+	
+}
+
 .contacts-wrapper {
 	background-color: #485782;
 }
@@ -305,6 +311,12 @@
 	border-radius: 10px;
 	margin: 20px;
 	color: #ffffff;
+}
+
+.form-submit:hover {
+	background-color:  #ffffff;
+
+	color: #000000;
 }
 
 @media (max-width: 768px) {
