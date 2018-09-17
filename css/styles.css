@@ -22,7 +22,8 @@
 }
 
 .page-nav {
-	padding: 20px;
+	margin: 0;
+	
 	font-family: 'Roboto', sans-serif;
 	
 	
@@ -30,9 +31,23 @@
 
 .nav-link {
 	color: #000000;
-
+	padding: 20px !important; 
 }
 
+
+.nav-item a:hover{
+	color:  #ffffff;
+}
+.nav-item {
+	
+	color: #000000;
+}	
+
+.nav-item:hover {
+	
+	color: #ffffff;
+	background-color: #000000;
+}
 .home {
 	text-align: center;
 	color: #ffffff;
@@ -73,7 +88,7 @@
 }
 
 .experience {
-	padding: 50px;
+	padding: 80px 0;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -85,7 +100,7 @@
 .experience-heading-main {
 	font-size: 40px;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 .experience-heading {
 	font-family: 'Roboto-bold', sans-serif;
@@ -97,7 +112,7 @@
 	background-color: #82d2ef;
 }
 .skills {
-	padding: 60px;
+	padding: 80px 0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -122,12 +137,6 @@
 	font-size: 30px;
 }
 
-.about-me-item {
-	position: relative;
-
-	padding-top: 180px;
-
-}
 
 .item-values:before {
 	content: "";
@@ -166,13 +175,12 @@
 	background-size: cover;
 }
 
-
 .about-me-wrapper {
 	background-color: #ffffff;
 }
 
 .about-me {
-	padding:  60px;
+	padding:  80px;
 
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
@@ -180,13 +188,28 @@
 	text-align: center;
 }
 
+.about-me-heading {
+	font-size: 40px;
+	font-family: 'Roboto-bold', sans-serif;
+	padding-bottom: 40px;
+}
+
+.item-hobbies-heading {
+	font-size: 30px;
+}
+
+.about-me-item {
+	position: relative;
+
+	padding-top: 180px;
+
+}
 
 .portfolio-wrapper {
 	background-color: #e2d3a9;
 }
-
 .portfolio {
-	padding: 60px;
+	padding: 80px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	text-align: center;
